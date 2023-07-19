@@ -1,0 +1,33 @@
+.menu-btn {
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.non-style-link-menu {
+  color: black;
+  text-decoration: none;
+}
+.cell-content {
+  display: flex;
+}
+
+.cell-content > div {
+  display: flex;
+  gap: 5px;
+}
+.cell-content {
+  display: flex;
+
+  align-items: center; /* Vertically align items in the middle */
+  width: 100%; /* Take up full width of the cell */
+}
+
+.data {
+  flex-grow: 1; /* Allow this element to take up extra space */
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
