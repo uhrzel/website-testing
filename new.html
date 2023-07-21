@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <center>
+      <div class="container">
+        <div class="input">
+          <input type="text" id="input" name="input" />
+          <button name="sendbtn" class="sendbtn">send</button>
+        </div>
+      </div>
+    </center>
+
+    <script>
+      const text = document.getElementById("input");
+      const sendbtn = document.querySelector(".sendbtn");
+      const inputVal = text.value;
+      sendbtn.addEventListener("click", function () {
+        if (inputVal) {
+          alert("hiiii");
+        } else {
+          alert("please enter text");
+        }
+      });
+    </script>
+  </body>
+</html>
